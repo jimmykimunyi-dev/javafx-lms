@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="560.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lms.lms.UserManagementController">
+   <children>
+      <TableView prefHeight="290.0" prefWidth="600.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Name" />
+          <TableColumn prefWidth="75.0" text="ID" />
+        </columns>
+      </TableView>
+      <TextField layoutY="310.0" prefHeight="25.0" prefWidth="600.0" promptText="User Name" />
+      <TextField layoutY="352.0" prefHeight="25.0" prefWidth="600.0" promptText="User ID" />
+      <Button layoutY="398.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="178.0" text="Add User" />
+      <Button layoutX="218.0" layoutY="482.0" mnemonicParsing="false" onAction="#switchToMainDashboard" prefHeight="25.0" prefWidth="165.0" text="Main Dashboard" />
+   </children>
+</AnchorPane>
